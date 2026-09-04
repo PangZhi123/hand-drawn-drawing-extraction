@@ -16,8 +16,6 @@ cache/
 tmp/
 dist/
 build/
-release/
-test-data/*.png
 *.egg-info/
 .idea/
 .vscode/

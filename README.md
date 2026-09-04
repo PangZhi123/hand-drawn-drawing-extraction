@@ -113,6 +113,12 @@ pip install -r requirements.txt
 uvicorn app.main:app --host 0.0.0.0 --port 8000
 ```
 
+`requirements.txt` 包含全部运行时 Python 依赖。如果同时需要运行自动化测试，可安装完整开发环境：
+
+```powershell
+pip install -r requirements-all.txt
+```
+
 注意：需要先启动 `llama-server`，再启动 FastAPI 后端。
 
 ### 6. 接口测试
